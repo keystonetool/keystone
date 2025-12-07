@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Basic global styles */
-html,body,#__next { height: 100%; }
 body {
-  @apply bg-white text-slate-800 antialiased;
+  margin: 0;
+  padding: 0;
 }
-a { @apply text-indigo-600 hover:underline; }
-.container { @apply max-w-6xl mx-auto px-6; }
