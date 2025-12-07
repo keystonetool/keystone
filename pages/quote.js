@@ -22,7 +22,7 @@ export default function Quote(){
             const form = e.target;
             const data = new FormData(form);
             // NOTE: replace the action below with your Formspree endpoint or integration
-            const endpoint = 'https://formspree.io/f/your-form-id';
+            const endpoint = 'https://formspree.io/f/xvgebpwv';
             try {
               const res = await fetch(endpoint, { method: 'POST', body: data });
               if (res.ok) {
